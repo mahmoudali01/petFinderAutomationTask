@@ -66,4 +66,13 @@ public class MethodsGenerator {
         String combinedPassword = upperCaseLetters + lowerCaseLetters + digits + specialChars;
         return combinedPassword.substring(0, Math.min(combinedPassword.length(), length));
     }
+
+    /**
+     * Generates a random index between 0 and 5 (inclusive).
+     *
+     * @return a random integer between 0 and 5.
+     */
+    public static int selectRandomIndexBetweenZeroAndFive() {
+        return faker.number().numberBetween(0, 6); // Generates a number between 0 (inclusive) and 6 (exclusive)
+    }
 }

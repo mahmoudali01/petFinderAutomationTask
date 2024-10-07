@@ -46,11 +46,13 @@ public class D03_SignUp {
         signUpPage.assertEmailValidation(validation);
     }
 
-    @And("the user fills first name last name and postal code")
-    public void fillFirstNameLastNameAndPostalCode() {
+    @And("the user fills tell us about your self form with valid data")
+    public void fillTellUsAboutYourSelfFormWithValidData() {
         signUpPage.fillFirstNameField()
                 .fillLastNameField()
-                .fillPostalCodeField();
+                .fillPostalCodeField()
+                .selectRandomNumberOfDogs()
+                .selectRandomNumberOfCats();
     }
 
     @And("the user fills first name last name and invalid postal code")

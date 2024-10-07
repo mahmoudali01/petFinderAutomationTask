@@ -1,10 +1,7 @@
 package common;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.NoSuchFrameException;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class PageBase {
@@ -32,6 +29,18 @@ public class PageBase {
     public void clickElement(By locator) {
         WebElement element = driver.findElement(locator);
         element.click();
+    }
+
+    public void selectDropdownByIndex(By dropdown, int index) {
+        WebElement dropDownElement = driver.findElement(dropdown);
+        Select select = new Select(dropDownElement);
+        select.selectByIndex(index);
+    }
+
+    public void selectDropdownByText(By dropdown, String visibleText) {
+        WebElement dropDownElement = driver.findElement(dropdown);
+        Select select = new Select(dropDownElement);
+        select.selectByVisibleText(visibleText);
     }
 
     public void navigateBack() {

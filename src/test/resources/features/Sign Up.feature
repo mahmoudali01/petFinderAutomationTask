@@ -31,7 +31,8 @@ Feature: Sign Up
   Scenario: Verify that user can sign up correctly
     When the user fills the Email field with valid email
     And the user clicks Continue button
-    And the user fills first name last name and postal code
+    And the user fills tell us about your self form with valid data
+    And the user clicks Continue button
     And the user enters password confirm password and check terms and conditions
     And the user clicks Continue button
     Then verify email message should be displayed

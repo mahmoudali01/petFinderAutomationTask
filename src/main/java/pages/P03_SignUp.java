@@ -22,6 +22,8 @@ public class P03_SignUp extends PageBase {
     private final By loginLink = By.xpath("//button[contains(@class,'pds-relative pds-ml-3')]");
     private final By signUpImage = By.xpath("//img[@alt='img']");
     private final By backToHomeButton = By.xpath("//span[contains(@class,'pds-hidden pds-font-medium')]");
+    private final By numberOfDogsDropdown = By.cssSelector("select[name='dogCount']");
+    private final By numberOfCatsDropdown = By.cssSelector("select[name='catCount']");
     private final By firstNameField = By.id("firstName");
     private final By lastNameField = By.id("lastName");
     private final By zipPostalCodeField = By.id("postalCode");
@@ -74,6 +76,16 @@ public class P03_SignUp extends PageBase {
         String password = generateRandomPassword(6);
         fillTextField(passwordField, password);
         fillTextField(confirmPasswordField, password);
+        return this;
+    }
+
+    public P03_SignUp selectRandomNumberOfCats() {
+        selectDropdownByIndex(numberOfCatsDropdown,selectRandomIndexBetweenZeroAndFive());
+        return this;
+    }
+
+    public P03_SignUp selectRandomNumberOfDogs() {
+        selectDropdownByIndex(numberOfDogsDropdown,selectRandomIndexBetweenZeroAndFive());
         return this;
     }
 
