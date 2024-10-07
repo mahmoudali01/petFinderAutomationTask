@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross browser testing">
+    <test name="Pet Finder Login Register Scenarios">
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="runner.CucumberTestRunner"/>
+        </classes>
+    </test>
+<!--    <test name="Edge">-->
+<!--        <parameter name="browserName" value="Edge"/>-->
+<!--        <classes>-->
+<!--            <class name="runner.CucumberTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Firefox">-->
+<!--        <parameter name="browserName" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="runner.CucumberTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

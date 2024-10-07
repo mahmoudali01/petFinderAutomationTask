@@ -1,0 +1,22 @@
+{
+  "homepage": {
+    "url": "https://myprofile.purina.com/sign-up",
+    "pageTitle": "Sign Up | Purina.com",
+    "elements": {
+      "backToHomeButtonText": "Back to Petfinder.com",
+      "getStartedBoldMessageText": "Get Started",
+      "headerMessageText": "It’s easy and convenient – create a single account to access all Purina platforms.",
+      "emailFieldLabelText": "Email Address",
+      "continueButtonText": "Continue",
+      "continueWithGoogleButtonText": "Continue With Google",
+      "continueWithAppleButtonText": "Continue With Apple",
+      "continueWithFacebookButtonText": "Continue With Facebook",
+      "alreadyHaveAccountMessageText": "Already have an account",
+      "loginLinkText": "Log In",
+      "firstNameRequiredMessage": "First Name is required",
+      "lastNameRequiredMessage": "Last Name is required",
+      "postalCodeRequiredMessage": "ZIP/Postal Code is required",
+      "invalidPostalCodeValidation": "Must enter valid US ZIP or CA Postal Code. ex: 55555 or A1A 1A1"
+    }
+  }
+}

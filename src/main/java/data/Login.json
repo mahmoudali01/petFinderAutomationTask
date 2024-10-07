@@ -1,0 +1,24 @@
+{
+  "homepage": {
+    "url": "https://login.purina.com/login",
+    "pageTitle": "Signin",
+    "elements": {
+      "signInWithSocialAccountsMessageText": "Sign in with your social account",
+      "continueWithGoogleButtonText": "Continue with Google",
+      "continueWithAppleButtonText": "Continue with Apple",
+      "continueWithFacebookButtonText": "Continue with Facebook",
+      "signInWithEmailOrPhoneNumberMessageText": "Sign in with your email or phone number and password",
+      "wontPostDisclaimerMessage": "We won't post to any of your accounts without asking first",
+      "forgetPasswordLinkText": "Forgot your password?",
+      "signInButtonText": "Sign in",
+      "needAccountLabelText": "Need an account?",
+      "signUpButtonText": "Sign up",
+      "userDoesNotExistError": "User does not exist.",
+      "forgetPasswordHeaderMessage": "Forgot your password?",
+    },
+    "credentials": {
+      "validEmail": "m2911@qa.team",
+      "validPassword": "P@ssw0rd1"
+    }
+  }
+}

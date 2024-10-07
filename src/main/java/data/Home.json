@@ -1,0 +1,15 @@
+{
+  "homepage": {
+    "url": "https://www.petfinder.com/",
+    "pageTitle": "Urgent Need for Pet Adoption - Find Dogs & Cats & More | Petfinder",
+    "elements": {
+      "signInButtonText": "SIGN IN",
+      "signInDialogHeaderMessage": "Log in or create a Petfinder account to access all things Purina.",
+      "signInDialogDisclaimerMessage": "Did you know? You can use this Petfinder account info to join myPurina and earn rewards on your Purina purchases, product reviews and more.",
+      "signInDialogContinueWithMessage": "or continue with",
+      "dialogLoginPageRedirectionButtonText": "Log in",
+      "dialogCreateAccountPageRedirectionButtonText": "Create Account",
+      "verifyEmailHeaderMessage": "Verify your email"
+    }
+  }
+}
