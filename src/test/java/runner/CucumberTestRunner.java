@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
         plugin = {"pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
-        tags = "@test"
+        tags = "@regression"
 )
 
 public class CucumberTestRunner extends AbstractTestNGCucumberTests {
